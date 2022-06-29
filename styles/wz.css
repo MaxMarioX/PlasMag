@@ -1,0 +1,156 @@
+.wz-document th {
+	background: #99F;
+	border: 1px solid black;
+}
+
+.wz-document td {
+	border: 1px solid black;
+}
+
+.wz-document {
+	width: 180mm;
+
+}
+
+.wz-document .business-data {
+	box-sizing: border-box;
+	width: 100%;
+	height: 30mm;
+}
+
+.wz-document .business-data .business-a {
+	float: left;
+	box-sizing: border-box;
+	width: 50%;
+	height: 100%;
+}
+
+.wz-document .business-data .business-b {
+	float: right;
+	box-sizing: border-box;
+	width: 50%;
+	height: 100%;
+}
+
+.wz-document .business-table {
+	width: 100%;
+}
+
+.wz-document .p-business {
+	margin-top: 3px;
+	margin-bottom: 3px;
+	margin-left: 3px;
+	font-size: 13px;
+}
+
+.wz-document .title {
+	box-sizing: border-box;
+	width: 100%;
+	margin-top: 10mm;
+	margin-bottom: 10mm;
+}
+
+.wz-document h1 {
+	text-align: center;
+	font-size: 20px;
+}
+
+.wz-document h3 {
+	text-align: center;
+	font-size: 12px;
+}
+
+.wz-document .items {
+	box-sizing: border-box;
+	width: 100%;
+
+}
+
+.wz-document .items-table {
+	border-collapse: collapse;
+}
+
+.wz-document .items-textdata {
+	font-size: 10px;
+}
+
+.wz-document .lp {
+	width: 5%;
+	text-align: left;
+	font-size: 12px;
+}
+
+.wz-document .kod {
+	width: 15%;
+	text-align: left;
+	font-size: 12px;
+}
+
+.wz-document .indeks {
+	width: 85%;
+	text-align: left;
+	font-size: 12px;
+}
+
+.wz-document .ilosc {
+	width: 10%;
+	text-align: left;
+	font-size: 12px;
+}
+
+.wz-document .jm {
+	width: 5%;
+	text-align: left;
+	font-size: 12px;
+}
+
+.wz-document .signatures {
+	box-sizing: border-box;
+	width: 100%;
+	height: 40mm;
+	margin-top: 10mm;
+}
+
+.wz-document .signatures .signatures-a {
+	float: left;
+	box-sizing: border-box;
+	width: 50%;
+	height: 40mm;
+}
+
+.wz-document .signatures .signatures-b {
+	float: left;
+	box-sizing: border-box;
+	width: 50%;
+	height: 40mm;
+}
+
+.wz-document .signatures-table {
+	width: 100%;
+}
+
+.wz-document .signatures-tr {
+	height: 25mm;
+	vertical-align: bottom;
+	text-align: center;
+	font-size: 10px;
+}
+
+.wz-document .signatures-textdata {
+	font-size: 10px;
+}
+
+.WZActionBoxBodyCD {
+	float: left;
+	width: 100%;
+	height: 350px;
+	overflow: auto;
+	padding-left: 1%;
+	padding-top: 1%;
+	padding-bottom: 1%;
+	margin-top: 3%;
+	margin-left: 0em;
+	background: rgba(255,255,255,.4);
+	color: #000;
+	font-family: Times New Roman;
+}

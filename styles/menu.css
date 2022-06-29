@@ -1,0 +1,76 @@
+.Header_1 {
+	background-image: url('icons/businessman.png');
+}
+
+#PanelAccordion {
+	margin: 1px 0 4px 1px;
+	font-family: Times New Roman;
+}
+
+#PanelAccordion .PanelAccordionHeader {
+	background: rgba(6,80,153,.6);
+	color: #fff;
+	border-bottom: 1px solid #fff;
+	position: relative;
+	font-weight: bold;
+}
+
+#PanelAccordion .PanelAccordionHeader h2 {
+	margin: 0;
+	cursor: pointer;
+	text-indent: 7px;
+	padding: 17px 0;
+	transition-property: text-indent;
+	transition-duration: 1s;
+}
+
+#PanelAccordion .PanelAccordionHeader h2:hover {
+	text-indent: 15px;
+}
+
+#PanelAccordion .PanelAccordionHeaderActive {
+	background: rgba(6,80,153,.6);
+}
+
+#PanelAccordion .PanelAccordionHeader span {
+	background: url(icons/right-arrow.png) no-repeat;
+	display: block;
+	position: absolute;
+	width: 10px;
+	height: 13px;
+	top: 6px;
+}
+
+#PanelAccordion .PanelAccordionHeader span.icon-active {
+	background: url(icons/right-arrow.png) no-repeat;
+	background-position: 0 - 12px;
+	display: block;
+	position: absolute;
+	width: 10px;
+	height: 13px;
+	top: 6px;
+}
+
+#PanelAccordion ul.PanelAccordionContent {
+	margin: 0px 0 0px 0;
+	padding: 5px 5px 10px 5px;
+	list-style-type: none;
+	background: rgba(6,80,153,.1);
+}
+
+#PanelAccordion ul.PanelAccordionContent li {
+	padding: 5px 15px;
+	display: block;
+	margin: 0;
+	transition-property: padding;
+	transition-duration: 1s;
+}
+
+#PanelAccordion ul.PanelAccordionContent li:hover {
+	padding: 5px 25px;
+}
+
+#PanelAccordion ul.PanelAccordionContent li a {
+	color: #000;
+	text-decoration: none;
+}

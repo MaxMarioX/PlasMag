@@ -1,0 +1,103 @@
+﻿.InstallDataBox,
+.InstallDataBox2,
+.InstallDataBox3,
+.InstallDataBox5 {
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	width: 350px;
+	height: 550px;
+	border: thin solid #00C;
+	box-shadow: 10px 10px 10px rgba(0,0,0,.5);
+	border-radius: 3px;
+	background: rgba(180,180,180,.3);
+	
+}
+
+.InstallDataBox2,
+.InstallDataBox3,
+.InstallDataBox5 {
+	display: none;
+}
+
+.SetBoxOne {
+	width: 350px;
+	height: 550px;
+	box-sizing: border-box;
+	padding: 20px 20px;
+}
+
+.TextInstall h1{
+	text-align: center;
+	font-family: 'Verdana';
+	font-size: 35px;
+}
+
+.TextInstall h2{
+	text-align: center;
+	font-family: 'Verdana';
+	font-size: 17px;
+}
+
+.TextInstall p{
+	text-align: justify;
+	font-family: 'Verdana';
+	font-size: 12px;
+	line-height: 20px;
+}
+
+.FieldsInstall {
+	margin-top: 15px;
+}
+
+.FieldsInstall input[type="text"],
+.FieldsInstall input[type="password"] {
+	border: thin solid #000;
+	height: 15px;
+	width: 100%;
+}
+
+.FieldsInstall input[type="text"]:hover,
+.FieldsInstall input[type="password"]:hover {
+	border: thin solid #00C;
+	transition-property: border;
+	-webkit-transition-property: border;
+	transition-duration: 1s;
+	-webkit-transition-duration: 1s;
+}
+
+.FieldsInstall input[type="button"]{
+	width: 100%;
+	height: 20px;
+	border: thin solid #000;
+	cursor: pointer;
+	border: thin solid #000;
+	font-weight: bold;
+}
+
+.FieldsInstall input[type="button"]:hover {
+	border: thin solid #00C;
+	transition-property: border;
+	-webkit-transition-property: border;
+	transition-duration: 1s;
+	-webkit-transition-duration: 1s;
+}
+
+.FieldsInstall input[name="ButtonInstall"]{
+	margin-top: 120px;
+}
+
+.FieldsInstall input[name="ButtonInstall-2"]{
+	margin-top: 85px;
+}
+
+.FieldsInstall input[name="ButtonInstall-3"]{
+	margin-top: 165px;
+}
+
+.TextDataField {
+	text-align: left;
+	font-family: 'Verdana';
+	font-size: 13px;
+}
